@@ -9,14 +9,15 @@ namespace LeetCode
 		static void Main(string[] args)
 		{
 			var i = 1994;
-			var result = $"{i} = {IntegerToRoman.IntToRoman(i)}";
+			var result = $"  {i} = {IntegerToRoman.IntToRoman(i)}";
 			Console.WriteLine(result);
 
 			//for (int i = 1; i < 15; i++)
 			//{
 			//	Console.WriteLine($"{i} = {IntegerToRoman.IntToRoman(i)}");
 			//}
-			Console.ReadLine(); 
+			Console.ReadLine();
+
 		}
 
 		/*
